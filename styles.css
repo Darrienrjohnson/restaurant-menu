@@ -145,10 +145,19 @@ height: 100%;
   .navbar-btn {
     padding-bottom: 2rem;
   }
-  .button {
+  .filter-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: ;
+    width: 80%;
+    height: 80px;
+    margin: 0;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
   }
 }
