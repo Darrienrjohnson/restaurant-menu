@@ -160,4 +160,12 @@ height: 100%;
     right: 5%;
     transform: translate(5%, 20%);
   }
+  .navbar-toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity:0;
+  }
 }
